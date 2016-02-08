@@ -1,4 +1,4 @@
-;;; foggy-night-theme.el --- Theme 
+;;; foggy-night-theme.el --- Dark low contrast theme with soft and muted colors.
 
 ;; Copyright (C) 2016 , Martin Haesler
 
@@ -27,7 +27,7 @@
 
 ;;; Code:
 
- (deftheme foggy-night)
+(deftheme foggy-night)
  (let ((class '((class color) (min-colors 89)))
        (fg1 "#8f8f8f")
        (fg2 "#848484")
@@ -40,7 +40,7 @@
        (builtin "#997599")
        (keyword "#6b83ac")
        (const   "#3e8c9d")
-       (comment "#4b4b4b")
+       (comment "#5d5d5d")
        (func    "#9e7a5a")
        (str     "#ad7176")
        (type    "#8d5351")
